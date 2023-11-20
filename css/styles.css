@@ -13,11 +13,11 @@ body {
     background-color: var(--white-background);
 }
 
-ul {
+.list {
     list-style: none;
 }
 
-a{
+.link{
     text-decoration: none;
 }
 button{cursor: pointer;}
@@ -27,7 +27,7 @@ button{cursor: pointer;}
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -103,7 +103,7 @@ button{cursor: pointer;}
 .main-section-paragraph{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 /*                          BODY PRODUCTS SECTION                        */
@@ -113,7 +113,7 @@ button{cursor: pointer;}
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -121,6 +121,9 @@ button{cursor: pointer;}
 
 .team-section-bg{
     background-color: var(--light);
+}
+.team-list {
+    background-color: var(--white-background);
 }
 
 /*                                FOOTER                              */
@@ -132,7 +135,7 @@ button{cursor: pointer;}
     color: var(--light);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 .footer-logo-accent{
@@ -156,3 +159,6 @@ button{cursor: pointer;}
     background-color: var(--pressed-state);
 }
 
+.portfolio-list {
+    background-color: var(--white-background);
+}
