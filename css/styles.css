@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*                                  HEADER                              */
+.logo{
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent{
+    color: #4D5AE5;
+}
+
+.header-navigation{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-navigation:hover,
+.header-navigation:focus{
+    color: #404BBF;
+}
+
+.header-address{
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    /*font-weight: 400; default value*/
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-address:hover,
+.header-address:focus{
+    color: #404BBF;
+}
+
+/*                                  BODY                                 */
+
+/*                                BODY-HERO                              */
+.hero{
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.hero-title{
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;
+}
+
+.hero-button{
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
+/*                          BODY FEATURES SECTION                        */
+.features-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+/*                          BODY PRODUCTS SECTION                        */
+.product-title{
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
