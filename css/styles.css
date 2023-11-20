@@ -1,7 +1,16 @@
+:root{
+    --main-color-text: #434455;
+    --white-background: #FFFFFF;
+    --primary-brand: #4D5AE5;
+    --modal-overlay: #2E2F42;
+    --pressed-state: #404BBF;
+    --light: #F4F4FD;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--main-color-text);
+    background-color: var(--white-background);
 }
 
 ul {
@@ -11,9 +20,10 @@ ul {
 a{
     text-decoration: none;
 }
+button{cursor: pointer;}
 /*                                  HEADER                              */
 .logo{
-    color: #4D5AE5;
+    color: var(--primary-brand);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -23,11 +33,11 @@ a{
 }
 
 .logo-accent{
-    color: #2E2F42;
+    color: var(--modal-overlay);
 }
 
 .header-navigation{
-    color: #2E2F42;
+    color: var(--modal-overlay);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -35,11 +45,11 @@ a{
 }
 .header-navigation:hover,
 .header-navigation:focus{
-    color: #404BBF;
+    color: var(--pressed-state);
 }
 
 .header-address{
-    color: #434455;
+    color: var(--main-color-text);
     font-size: 16px;
     font-style: normal;
     /*font-weight: 400; default value*/
@@ -48,19 +58,19 @@ a{
 }
 .header-address:hover,
 .header-address:focus{
-    color: #404BBF;
+    color: var(--pressed-state);
 }
 
 /*                                  BODY                                 */
 
 /*                                BODY-HERO                              */
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--modal-overlay);
     text-align: center;
 }
 
 .hero-title{
-    color: #FFF;
+    color: var(--white-background);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -68,8 +78,8 @@ a{
 }
 
 .hero-button{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-background);
+    background-color: var(--primary-brand);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -78,12 +88,12 @@ a{
 
 .hero-button:hover,
 .hero-button:focus{
-    background-color: #404BBF;
+    background-color: var(--pressed-state);
 }
 
 /*                          BODY FEATURES SECTION                        */
 .main-section-title{
-    color: #2E2F42;
+    color: var(--modal-overlay);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -98,7 +108,7 @@ a{
 
 /*                          BODY PRODUCTS SECTION                        */
 .main-title{
-    color: #2E2F42;
+    color: var(--modal-overlay);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -110,31 +120,31 @@ a{
 /*                          BODY TEAM SECTION                        */
 
 .team-section-bg{
-    background-color: #F4F4FD;
+    background-color: var(--light);
 }
 
 /*                                FOOTER                              */
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--modal-overlay);
 }
 
 .footer-text{
-    color: #F4F4FD;
+    color: var(--light);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
 }
 
 .footer-logo-accent{
-    color: #F4F4FD;
+    color: var(--light);
 }
 
 
 /* PORTFOLIO */
 
 .btn-navigation{
-    background: #F4F4FD;
-    color: #4D5AE5;
+    background: var(--light);
+    color: var(--primary-brand);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -142,7 +152,7 @@ a{
 }
 .btn-navigation:hover,
 .btn-navigation:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-background);
+    background-color: var(--pressed-state);
 }
 
