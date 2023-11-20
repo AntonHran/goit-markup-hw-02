@@ -64,13 +64,16 @@ a{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
     letter-spacing: 0.02em;
 }
 
 .hero-button{
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -79,7 +82,7 @@ a{
 }
 
 /*                          BODY FEATURES SECTION                        */
-.features-title{
+.main-section-title{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -87,7 +90,7 @@ a{
     letter-spacing: 0.02em;
 }
 
-.features-paragraph{
+.main-section-paragraph{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
@@ -110,23 +113,6 @@ a{
     background-color: #F4F4FD;
 }
 
-.team-title{
-    color: #2E2F42;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.team-paragraph{
-    color: #434455;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-}
-
 /*                                FOOTER                              */
 .footer {
     background-color: #2E2F42;
@@ -145,4 +131,18 @@ a{
 
 
 /* PORTFOLIO */
+
+.btn-navigation{
+    background: #F4F4FD;
+    color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.btn-navigation:hover,
+.btn-navigation:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 
