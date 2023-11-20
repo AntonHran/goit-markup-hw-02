@@ -165,3 +165,7 @@ button{cursor: pointer;}
 .portfolio-list {
     background-color: var(--white-background);
 }
+
+.portfolio-color {
+    color: var(--main-color-text);
+}
